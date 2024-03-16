@@ -1,0 +1,37 @@
+.card-wrap {
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 250px;
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-wrap .card-image {
+  width: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #333333;
+}
+.card-wrap p {
+  color: #979797;
+}
+.card-wrap .person-name {
+  font-weight: bold;
+  color: black;
+}
+.stats-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  background-color: #979797;
+  width: 248px;
+}
+.stats-wrap li {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border: 1px solid black;
+}
